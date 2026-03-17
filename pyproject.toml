@@ -1,0 +1,20 @@
+[project]
+name = "project3-poetry"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "MinhAnh24297",email = "MinhAnh.24297@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "psycopg2 (>=2.9.11,<3.0.0)",
+    "faker (>=40.11.0,<41.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "project3_poetry", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
