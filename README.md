@@ -14,7 +14,6 @@ project3_poetry/
 │       ├── connect.py      # Connection establishment logic
 │       ├── insert.py       # Main script for data insertion
 │       └── create_tables.py# Table schema definitions
-├── tests/                  # Unit tests
 ├── pyproject.toml          # Dependencies & metadata
 ├── poetry.lock             # Frozen dependency versions
 └── README.md
